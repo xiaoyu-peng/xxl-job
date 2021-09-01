@@ -542,6 +542,7 @@ $(function() {
 		$("#updateModal .form input[name='jobDesc']").val( row.jobDesc );
 		$("#updateModal .form input[name='author']").val( row.author );
 		$("#updateModal .form input[name='alarmEmail']").val( row.alarmEmail );
+		$("#updateModal .form input[name='alarmWei']").val( row.alarmWei );
 
 		// fill trigger
 		$('#updateModal .form select[name=scheduleType] option[value='+ row.scheduleType +']').prop('selected', true);
@@ -697,6 +698,7 @@ $(function() {
 		$("#addModal .form input[name='jobDesc']").val( row.jobDesc );
 		$("#addModal .form input[name='author']").val( row.author );
 		$("#addModal .form input[name='alarmEmail']").val( row.alarmEmail );
+		$("#addModal .form input[name='alarmWei']").val( row.alarmWei );
 
 		// fill trigger
 		$('#addModal .form select[name=scheduleType] option[value='+ row.scheduleType +']').prop('selected', true);

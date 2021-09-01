@@ -19,6 +19,7 @@ public class XxlJobInfo {
 	
 	private String author;		// 负责人
 	private String alarmEmail;	// 报警邮件
+	private String alarmWei;	// 报警企微
 
 	private String scheduleType;			// 调度类型
 	private String scheduleConf;			// 调度配置，值含义取决于调度类型
@@ -97,6 +98,14 @@ public class XxlJobInfo {
 
 	public void setAlarmEmail(String alarmEmail) {
 		this.alarmEmail = alarmEmail;
+	}
+
+	public String getAlarmWei() {
+		return alarmWei;
+	}
+
+	public void setAlarmWei(String alarmWei) {
+		this.alarmWei = alarmWei;
 	}
 
 	public String getScheduleType() {
